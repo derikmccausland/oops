@@ -1,0 +1,132 @@
+*{
+    font-family: cursive;
+}
+
+.landingPage{
+    min-height: 100vh;
+    min-width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(https://i.pinimg.com/originals/06/c3/95/06c3954b72ae8cfe586ec151efeb29cc.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: darkgray;
+    color:green;
+    border-style: none;
+    /* -webkit-animation: flickerAnimation 1s infinite;
+    -moz-animation: flickerAnimation 1s infinite;
+    -o-animation: flickerAnimation 1s infinite; */
+     animation: flickerAnimation 1s infinite;
+
+}
+
+.landingHeader1{
+    display:flex;
+    width: 25vw;
+    justify-content: center;
+    gap: 1.5vw;
+    flex-direction: row;
+    text-align: center;
+    padding-top: 10%;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 5vh;
+}
+
+.landingHeader11{
+    font-size: 5vh;
+
+}
+
+.landingHeader2{
+    display: flex;
+    flex-direction: column;
+    max-width: 42.5vw;
+    text-align: center;
+    font-family: 'MedievalSharp', cursive;
+    margin-top: 7.5vh;
+    font-size: 7.5vw;}
+
+.startButton{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+    min-width:20%;
+    height:10vh;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 8vh;
+}
+
+.startButton:hover{
+    color:red
+}
+
+
+.startingPage{
+    /* height:100%; */
+    width:100%;
+    margin-top: -10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.startingScript{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 0vh;
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+    padding-left: 2.5vh;
+    padding-right: 2.5vh;
+    width:50vw;
+    min-height:fit-content;
+    background-color: rgba(0, 0, 0, 0.666);
+    font-family: 'MedievalSharp', cursive;
+    font-size: 3.5vh;
+
+    /* font-family: Trattatello;
+    font-size: 3vh; */
+}
+
+.introScript{
+    font-size: 3vh;
+    
+}
+
+.beginButton{
+    align-self: center;
+    font-size: 3.5vh;
+    font-family: 'MedievalSharp', cursive;}
+
+.beginButton:hover{
+    cursor: pointer;
+    color:red;
+}
+
+
+
+@keyframes flickerAnimation {
+    0%   { opacity:1; }
+    50%  { opacity:.92; }
+    100% { opacity:1; }
+  }
+  @-o-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:.92; }
+    100% { opacity:1; }
+  }
+  @-moz-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:.92; }
+    100% { opacity:1; }
+  }
+  @-webkit-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:.92; }
+    100% { opacity:1; }
+  }
+

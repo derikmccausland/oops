@@ -1,0 +1,223 @@
+*{
+    color:white;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 2vh;
+
+}
+
+#mobile {
+    display: none;
+  }
+
+img{
+    max-width: 101px;
+    min-width: 100px;
+    border: 4px solid black;
+
+}
+
+.monster-box{
+    display: flex;
+    min-height: 50%;
+    width: 95%;
+    border: 5px solid black;
+    border-color: black;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 2vh;
+    background-color: rgba(211, 211, 211, 0.598);
+}
+
+.portrait-image{
+    margin: 5px;
+    margin: 5px;
+}
+
+
+.portrait-flavor{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    width: 95%;    
+}
+
+
+.focus-button{
+    margin: 10px;
+}
+
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.monster-name{
+    color: black;
+    font-size: x-large;
+    text-align: center;
+    border-style: solid;
+    border-width: 5px;
+    border-left: green;
+    border-right: green;
+
+}
+
+.chance-text{
+    text-align: left;
+    font-size:smaller;
+    width:fit-content;
+    text-align: center;
+    padding-left: 0px;
+    margin-top: .25%;
+    position: absolute;
+    z-index: 9;
+}
+
+.deathScreen{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align:center;
+    width: 45.3%;
+    height: 50%;
+    background-color: rgba(128, 128, 128, 0.851);
+    z-index: 9;
+    position: absolute;
+    top:15%;
+    left:27.25%;
+}
+
+.deathText{
+    font-size: 300%;
+    margin:0;
+    padding:0;
+}
+
+.deathHint{
+    font-size: 150%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.deathButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap:5%;
+    width: 100%
+}
+
+.deathButton{
+    min-width: 15%;
+    max-width: 30%;
+    font-size: 110%;
+}
+
+.deathButton:hover{
+    cursor: pointer;
+    color:red;
+}
+
+.creditsButton{
+    cursor: pointer;
+}
+
+.creditsButton:hover{
+    color:red;
+}
+
+.cryButton{
+    cursor:pointer
+}
+
+.cryButton:hover{
+    color:red
+}
+
+.equippedItemsSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:80%;
+    margin-bottom: 5%;
+    /* background-color: green; */
+
+}
+
+.inspectSection{
+    display:flex;
+    width:80%;
+    justify-content: space-around;
+    justify-self: center; 
+    align-items: center;
+    /* background-color: green; */
+    margin-top: -10%;
+}
+
+.winScreen{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align:center;
+    width: 45.3%;
+    height: 60%;
+    background-color: rgba(128, 128, 128, 0.851);
+    z-index: 9;
+    position: absolute;
+    top:10%;
+    left:27.25%;
+}
+
+.winText{
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 125%;
+}
+
+.winEnd{
+    font-size: 275%;
+}
+
+html,body{
+    margin:0px
+}
+
+@media only screen and (max-width: 600px) {
+    #root {
+      display: none;
+    }
+  
+    html,
+    body {
+      height: 100%;
+    }
+  
+    body {
+      background-color: #d6cca9;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    #mobile {
+      display: flex;
+      flex-direction: column;
+      height: 70%;
+      justify-content: space-around;
+      align-items: center;
+      text-align: center;
+      font-size: 200%;
+    }
+
+  
+    #mobile > p {
+      color: black;
+      font-size: x-large;
+      text-align: center;
+      padding: 40px;
+    }
+  }
